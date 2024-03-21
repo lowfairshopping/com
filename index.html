@@ -2004,8 +2004,84 @@
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
     <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
+    <!-- pintrest tags for traffic -->
+    <!-- Pinterest Tag -->
+    <script>
+        !function (e) {
+            if (!window.pintrk) {
+                window.pintrk = function () {
+                    window.pintrk.queue.push(Array.prototype.slice.call(arguments))
+                }; var
+                    n = window.pintrk; n.queue = [], n.version = "3.0"; var
+                        t = document.createElement("script"); t.async = !0, t.src = e; var
+                            r = document.getElementsByTagName("script")[0];
+                r.parentNode.insertBefore(t, r)
+            }
+        }("https://s.pinimg.com/ct/core.js");
+        pintrk('load', '2614009108623', { em: '<user_email_address>' });
+        pintrk('page');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none;" alt=""
+            src="https://ct.pinterest.com/v3/?event=init&tid=2614009108623&pd[em]=<hashed_email_address>&noscript=1" />
+    </noscript>
+    <!-- end Pinterest Tag -->
+    <script>
+        pintrk('track', 'checkout', {
+            event_id: 'eventId0001',
+            value: 100,
+            order_quantity: 1,
+            currency: 'USD'
+        });
+    </script>
+    <script>
+        pintrk('track', 'addtocart', {
+            event_id: 'eventId0001',
+            value: 100,
+            order_quantity: 1,
+            currency: 'USD'
+        });
+    </script>
+    <script>
+        pintrk('track', 'pagevisit', {
+            event_id: 'eventId0001'
+        });
+    </script>
+    <script>
+        pintrk('track', 'watchvideo', {
+            event_id: 'eventId0001',
+            video_title: 'How to style your Parker Boots'
+        });
+    </script>
+    <script>
+        pintrk('track', 'lead', {
+            event_id: 'eventId0001',
+            lead_type: 'Newsletter'
+        });
+    </script>
+    <script>
+        pintrk('track', 'search', {
+            event_id: 'eventId0001',
+            search_query: 'boots'
+        });
+    </script>
+    <script>
+        pintrk('track', 'viewcategory', {
+            event_id: 'eventId0001'
+        });
+    </script>
+    <script>
+        pintrk('track', 'custom', {
+            event_id: 'eventId0001'
+        });
+    </script>
+    <script>
+        pintrk('track', 'user_defined_event_name', {
+            event_id: 'eventId0001'
+        });
+    </script>
 </body>
-
+<!-- end -->
 
 <!-- molla/index-2.html  22 Nov 2019 09:55:42 GMT -->
 
